@@ -47,8 +47,6 @@
     this.word = await api.getWord(this.$route.params.id);
   }
  };
-
-
   </script>
   
   <style scoped>

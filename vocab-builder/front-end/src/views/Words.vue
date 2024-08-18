@@ -6,7 +6,7 @@
         <tr>
           <th>English</th>
           <th>German</th>
-          <th>Italian</th>
+          <th>Italian</th
           <th colspan="3"></th>
         </tr>
       </thead>
@@ -14,7 +14,7 @@
         <tr v-for="(word, i) in paginatedWords" :key="i">
           <td>{{ word.english }}</td>
           <td>{{ word.german }}</td>
-          <td>{{ word.italian }}</td>
+          <td>{{ word.italian}}</td>
           <td width="75" class="center aligned">
             <router-link :to="{ name: 'show', params: {id: word._id}}">Show</router-link>
           </td>
